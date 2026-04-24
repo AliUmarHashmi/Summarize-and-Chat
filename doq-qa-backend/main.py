@@ -10,7 +10,7 @@ import os
 load_dotenv()
 
 app = FastAPI()
-client = Groq(api_key=os.getenv("GROQ-API-KEY"))
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 app.add_middleware(
     CORSMiddleware,
