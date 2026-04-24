@@ -24,6 +24,9 @@ sessions = {}
 
 MODEL = "llama-3.3-70b-versatile"
 
+@app.get("/")
+def root():
+    return {"status": "ok"}
 
 # --- Endpoint 1: Upload ---
 @app.post("/upload")
