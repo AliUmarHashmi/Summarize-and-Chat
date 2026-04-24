@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
+const API = "summarize-and-chat-production.up.railway.app";
 
 export default function App() {
   const [sessionIds, setSessionIds] = useState([]);
