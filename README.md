@@ -3,6 +3,8 @@
 An AI-powered web application that allows users to **summarize content** and **interact with it through chat** for deeper understanding and insights.
 
 ---
+The project is live at:https://summarizeandchat.netlify.app
+---
 
 ## 🚀 Features
 
